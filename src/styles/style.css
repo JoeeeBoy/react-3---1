@@ -1,0 +1,57 @@
+#root {
+  width: 1240px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 120px;
+}
+
+.navbar a {
+  color: black;
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+}
+
+.navbar :last-child {
+  border: none;
+}
+.navbar :first-child {
+  margin-top: 10px;
+}
+
+.shopBox {
+  margin: 20px 0px;
+  display: flex;
+}
+
+.card {
+  width: 18rem;
+  margin: 10px;
+  border: none;
+}
+
+.product {
+  width: 75%;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.card-img-top {
+    width: 288px;
+    height: 200px;
+}
